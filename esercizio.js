@@ -1,4 +1,5 @@
 const teamMember = [
+   {
    name : "Kenula",
    surname : "Silva"
    age : 20
@@ -9,5 +10,5 @@ const teamMember = [
    favoriteFilm : "Imaginary"
    favoriteBook : ""
    petName : "Thor"
-    
+}
 ]
