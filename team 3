@@ -1,0 +1,58 @@
+const teamMemberOne = [
+  {
+    name: "Silas",
+    surname: "Bonsu",
+    age: 25,
+    city: "Correggio",
+    hobby: "Atletica",
+    favoriteFood: "Pizza",
+    favoriteVideoGame: "Horizon zero down",
+    favoriteFilm: "Star wars",
+    favoriteBook: "Il signore degli anelli",
+    petName: "Bethoven",
+},
+
+teamMemberTwo = [
+    {
+      name: "Kenula",
+      surname: "Silva",
+      age: 20,
+      city: "Roma",
+      hobby: "Video Giochi",
+      favoriteFood: "Pasta",
+      favoriteVideoGame: "Tom Raider",
+      favoriteFilm: "Imaginary",
+      favoriteBook: "",
+      petName: "Thor",
+    },
+  ],
+teamMemberthree = [
+    {
+      name: "Antonio",
+      surname: "Valletta",
+      age: 30,
+      city: "Irsina",
+      hobby: "Football",
+      favoriteFood: "Sushi",
+      favoriteVideoGame: "God of War",
+      favoriteFilm: "Shutter Island",
+      favoriteBook: "",
+      petName: "",
+    },
+  ],
+teamMemberFour = [
+    {
+      name: "Eros",
+      surname: "Greco",
+      age: 22,
+      city: "Verona",
+      hobby: "Botanica",
+      favoriteFood: "Patate a fette",
+      favoriteVideoGame: "Kindom Hearts",
+      favoriteFilm: "Godzilla King of the Moster",
+      favoriteBook: "Solo Leveling",
+      petName: "Pongo",
+    },
+  ],
+]
+
