@@ -1,13 +1,14 @@
 const teamMemberOne = [
-  
-    name: 
-    surname: 
-    age: 
-    city: 
-    hobby: 
-    favoriteFood: 
-    favoriteVideoGame: 
-    favoriteFilm: 
-    favoriteBook: 
-    petName: 
-    ],
+   {
+    name: 'Silas',
+    surname: 'Bonsu',
+    age: 25,
+    city: 'Correggio',
+    hobby: 'Atletica',
+    favoriteFood: 'pizza',
+    favoriteVideoGame:'Horizon zero down',
+    favoriteFilm: 'Star wars',
+    favoriteBook: 'Il signore degli anelli',
+    petName: 'Bethoven', 
+   }
+]
