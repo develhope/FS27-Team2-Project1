@@ -51,12 +51,14 @@ const teamMemberOne = [
    },
   ]
 
-
-const NoLOL = teamMemberOne.filter(teamMemberOne => teamMemberOne.favoriteVideoGame === "LOL")
-console.log(NoLOL);
-
-const NoName = teamMemberOne.filter(teamMemberOne => teamMemberOne.Name === "Eros")
-console.log(NoName)
-
+teamMemberOne.sort((a, b)=>{
+ const fullNameA = `${a.surname} ${b.surname}`;
+ const fullNameB = `${a.name} ${b.name}`;
+ return fullNameA.localeCompare(fullNameB)
+})
+console.log("Team alfaphetical Order : ")
+teamMemberOne.forEach(member => {
+  console.log(`${member.surname} ${member.name}`)
+})
  
  
