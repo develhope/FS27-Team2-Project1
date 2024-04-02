@@ -1,5 +1,5 @@
 const teamMemberOne = [
-  {
+  
     name: 
     surname: 
     age: 
@@ -10,4 +10,4 @@ const teamMemberOne = [
     favoriteFilm: 
     favoriteBook: 
     petName: 
-},
+    ],
