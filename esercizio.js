@@ -2,7 +2,7 @@ const teamMemberOne = [
   {
     name: "Kenula",
     surname: "Silva",
-    age:  "20",
+    age:  20,
     city: "Roma",
     hobby: "Video Giochi",
     favoriteFood: "Pasta",
@@ -50,3 +50,15 @@ const teamMemberOne = [
     petName: 'Bethoven',
    },
   ]
+
+// funzione per trovare chi  ha un animale domestico//
+
+  function puppy(array) {
+   array.filter((array) => {
+      if (array.petName !== '') {
+         console.log(array.name);
+      }
+})
+   
+}
+
