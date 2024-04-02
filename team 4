@@ -1,0 +1,5 @@
+const NoLOL = TeamMemberOne.filter(TeamMember => TeamMemberOne.favoriteVideoGame === "LOL")
+console.log(NoLOL);
+
+const NoName = TeamMemberOne.filter(TeamMember => TeamMemberOne.Name === "Eros")
+console.log(NoName)
