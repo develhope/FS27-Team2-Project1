@@ -51,11 +51,14 @@ const teamMemberOne = [
   },
 ];
 
-let somma = 0;
+function media(teamMemberOne) {
+  let somma = 0;
 
-for (let i = 0; i < teamMemberOne.length; i++) {
-  somma += teamMemberOne[i].age;
+  for (let i = 0; i < teamMemberOne.length; i++) {
+    somma += teamMemberOne[i].age;
+  }
+
+  const mediaAge = somma / teamMemberOne.length;
+  return console.log(mediaAge);
 }
-
-const mediaAge = somma / teamMemberOne.length;
-console.log(mediaAge)
+media(teamMemberOne);
