@@ -1,8 +1,6 @@
-const teamMember = [
-  {
+const teamMemberOne =  [ {
     name: "Eros",
     surname: "Greco",
-    age: 22,
     city: "Verona",
     hobby: "Botanica",
     favoriteFood: "Patate a fette",
@@ -11,7 +9,31 @@ const teamMember = [
     favoriteBook: "Solo Leveling",
     petName: "Pongo",
   },
-];
 
+  {
+    name: "Antonio",
+    surname:"Valletta", 
+    age: 30,
+    city: "Irsina",
+    hobby: "Calcio",
+    favoriteFood: "sushi",
+    favoriteVideoGame: "God of War",
+    favoriteFilm: "shutter island",
+    favoriteBook: "",
+    petName: "",
+  },
+    
 
- 
+   {
+    name: 'Silas',
+    surname: 'Bonsu',
+    age: 25,
+    city: 'Correggio',
+    hobby: 'Atletica',
+    favoriteFood: 'pizza',
+    favoriteVideoGame:'Horizon zero down',
+    favoriteFilm: 'Star wars',
+    favoriteBook: 'Il signore degli anelli',
+    petName: 'Bethoven',
+   },
+]
