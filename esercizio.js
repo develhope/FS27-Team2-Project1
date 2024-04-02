@@ -1,4 +1,14 @@
-const teamMemberOne = [
+const teamMemberOne =  [ {
+    name: "Eros",
+    surname: "Greco",
+    city: "Verona",
+    hobby: "Botanica",
+    favoriteFood: "Patate a fette",
+    favoriteVideoGame: "Kindom Hearts",
+    favoriteFilm: "Godzilla King of the Moster",
+    favoriteBook: "Solo Leveling",
+    petName: "Pongo",
+  },
 
   {
     name: "Antonio",
@@ -11,7 +21,7 @@ const teamMemberOne = [
     favoriteFilm: "shutter island",
     favoriteBook: "",
     petName: "",
-  }
+  },
     
 
    {
@@ -24,7 +34,6 @@ const teamMemberOne = [
     favoriteVideoGame:'Horizon zero down',
     favoriteFilm: 'Star wars',
     favoriteBook: 'Il signore degli anelli',
-    petName: 'Bethoven', 
-   }
+    petName: 'Bethoven',
+   },
 ]
-
