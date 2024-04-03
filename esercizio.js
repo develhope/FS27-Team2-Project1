@@ -59,6 +59,7 @@ function media(teamMemberOne) {
   }
 
   const mediaAge = somma / teamMemberOne.length;
-  return console.log(mediaAge);
+  return mediaAge
 }
-media(teamMemberOne);
+const printMedia = media(teamMemberOne)
+console.log(printMedia)
