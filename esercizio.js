@@ -1,8 +1,9 @@
+
 const teamMemberOne = [
   {
     name: "Kenula",
     surname: "Silva",
-    age:  "20",
+    age: 20,
     city: "Roma",
     hobby: "Video Giochi",
     favoriteFood: "Pasta",
@@ -11,9 +12,10 @@ const teamMemberOne = [
     favoriteBook: "",
     petName: "Thor",
   },
- {
+  {
     name: "Eros",
     surname: "Greco",
+    age: 20,
     city: "Verona",
     hobby: "Botanica",
     favoriteFood: "Patate a fette",
@@ -25,7 +27,7 @@ const teamMemberOne = [
 
   {
     name: "Antonio",
-    surname:"Valletta", 
+    surname: "Valletta",
     age: 30,
     city: "Irsina",
     hobby: "Calcio",
@@ -35,22 +37,33 @@ const teamMemberOne = [
     favoriteBook: "",
     petName: "",
   },
-    
 
-   {
-    name: 'Silas',
-    surname: 'Bonsu',
+  {
+    name: "Silas",
+    surname: "Bonsu",
     age: 25,
-    city: 'Correggio',
-    hobby: 'Atletica',
-    favoriteFood: 'pizza',
-    favoriteVideoGame:'Horizon zero down',
-    favoriteFilm: 'Star wars',
-    favoriteBook: 'Il signore degli anelli',
-    petName: 'Bethoven',
-   },
-  ]
+    city: "Correggio",
+    hobby: "Atletica",
+    favoriteFood: "pizza",
+    favoriteVideoGame: "Horizon zero down",
+    favoriteFilm: "Star wars",
+    favoriteBook: "Il signore degli anelli",
+    petName: "Bethoven",
+  },
+];
 
+function media(teamMemberOne) {
+  let somma = 0;
+
+  for (let i = 0; i < teamMemberOne.length; i++) {
+    somma += teamMemberOne[i].age;
+  }
+
+  const mediaAge = somma / teamMemberOne.length;
+  return mediaAge
+}
+const printMedia = media(teamMemberOne)
+console.log(printMedia)
 
 const NoLOL = teamMemberOne.filter(teamMemberOne => teamMemberOne.favoriteVideoGame === "LOL")
 console.log(NoLOL);
@@ -60,3 +73,4 @@ console.log(NoName)
 
  
  
+
