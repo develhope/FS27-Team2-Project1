@@ -2,7 +2,7 @@ const teamMemberOne = [
   {
     name: "Kenula",
     surname: "Silva",
-    age:  "20",
+    age:  21 ,
     city: "Roma",
     hobby: "Video Giochi",
     favoriteFood: "Pasta",
@@ -14,6 +14,7 @@ const teamMemberOne = [
  {
     name: "Eros",
     surname: "Greco",
+    age: 20,
     city: "Verona",
     hobby: "Botanica",
     favoriteFood: "Patate a fette",
@@ -49,16 +50,12 @@ const teamMemberOne = [
     favoriteBook: 'Il signore degli anelli',
     petName: 'Bethoven',
    },
-  ]
+  ];
 
-teamMemberOne.sort((a, b)=>{
- const fullNameA = `${a.surname} ${b.surname}`;
- const fullNameB = `${a.name} ${b.name}`;
- return fullNameA.localeCompare(fullNameB)
-})
-console.log("Team alfaphetical Order : ")
-teamMemberOne.forEach(member => {
-  console.log(`${member.surname} ${member.name}`)
-})
+  const teamorderByAge = teamMemberOne.sort((a, b) => a.age - b.age);
+  teamSortedByAge.forEach(member => {
+    console.log(`${member.name} ${member.age}`);
+  });
+
  
  
