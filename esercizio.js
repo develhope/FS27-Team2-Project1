@@ -3,7 +3,11 @@ const teamMemberOne = [
   {
     name: "Kenula",
     surname: "Silva",
+
+    age:  21 ,
+
     age:  20,
+
     city: "Roma",
     hobby: "Video Giochi",
     favoriteFood: "Pasta",
@@ -42,6 +46,25 @@ const teamMemberOne = [
     name: "Silas",
     surname: "Bonsu",
     age: 25,
+
+    city: 'Correggio',
+    hobby: 'Atletica',
+    favoriteFood: 'pizza',
+    favoriteVideoGame:'Horizon zero down',
+    favoriteFilm: 'Star wars',
+    favoriteBook: 'Il signore degli anelli',
+    petName: 'Bethoven',
+   },
+  ];
+
+  const teamorderByAge = teamMemberOne.sort((a, b) => a.age - b.age);
+  teamMemberOne.forEach(member => {
+    console.log(`${member.name} ${member.age}`);
+  });
+
+ 
+ 
+
     city: "Correggio",
     hobby: "Atletica",
     favoriteFood: "pizza",
@@ -88,5 +111,6 @@ console.log("Team alfaphetical Order : ")
 teamMemberOne.forEach(member => {
   console.log(`${member.surname} ${member.name}`)
 })
+
 
 
