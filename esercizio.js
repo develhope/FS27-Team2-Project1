@@ -3,11 +3,7 @@ const teamMemberOne = [
   {
     name: "Kenula",
     surname: "Silva",
-
     age:  21 ,
-
-    age:  20,
-
     city: "Roma",
     hobby: "Video Giochi",
     favoriteFood: "Pasta",
@@ -55,24 +51,6 @@ const teamMemberOne = [
     favoriteBook: 'Il signore degli anelli',
     petName: 'Bethoven',
    },
-  ];
-
-  const teamorderByAge = teamMemberOne.sort((a, b) => a.age - b.age);
-  teamMemberOne.forEach(member => {
-    console.log(`${member.name} ${member.age}`);
-  });
-
- 
- 
-
-    city: "Correggio",
-    hobby: "Atletica",
-    favoriteFood: "pizza",
-    favoriteVideoGame: "Horizon zero down",
-    favoriteFilm: "Star wars",
-    favoriteBook: "Il signore degli anelli",
-    petName: "Bethoven",
-  },
 ];
 
 function media(teamMemberOne) {
@@ -112,5 +90,7 @@ teamMemberOne.forEach(member => {
   console.log(`${member.surname} ${member.name}`)
 })
 
-
-
+const teamorderByAge = teamMemberOne.sort((a, b) => a.age - b.age);
+  teamMemberOne.forEach(member => {
+    console.log(`${member.name} ${member.age}`);
+  });
