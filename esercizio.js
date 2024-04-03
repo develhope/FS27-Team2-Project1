@@ -75,11 +75,11 @@ console.log(NoName)
 // funzione per trovare chi  ha un animale domestico//
 
   function puppy(array) {
-   array.filter((array) => {
+   array.filter((array) => {})
       if (array.petName !== '') {
          console.log(array.name);
       }
-
+    
  teamMemberOne.sort((a, b)=>{
  const fullNameA = `${a.surname} ${b.surname}`;
  const fullNameB = `${a.name} ${b.name}`;
@@ -93,4 +93,4 @@ teamMemberOne.forEach(member => {
 const teamorderByAge = teamMemberOne.sort((a, b) => a.age - b.age);
   teamMemberOne.forEach(member => {
     console.log(`${member.name} ${member.age}`);
-  });
+   })}
