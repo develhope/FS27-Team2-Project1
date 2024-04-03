@@ -53,7 +53,7 @@ const teamMemberOne = [
   ];
 
   const teamorderByAge = teamMemberOne.sort((a, b) => a.age - b.age);
-  teamSortedByAge.forEach(member => {
+  teamMemberOne.forEach(member => {
     console.log(`${member.name} ${member.age}`);
   });
 
